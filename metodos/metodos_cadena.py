@@ -20,7 +20,7 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra,
  per inceptos himenaeos.'''
 
 # El método DIR, nos indica todos los métodos disponibles para la variable
-print(dir(nombre_personal))
+# print(dir(nombre_personal))
 
 # Métodos de cadena, modifican el STRING asociado
 # CAPITALIZE deja la primera letra de un string en mayúsculas
@@ -67,3 +67,7 @@ print(f'Dígito Verificador: {rut_split[1]}')
 
 rut_completo_split = rut_completo.split()[-1]
 print(rut_completo_split[-1])
+
+# REPLACE permite reemplazar substring dentro de una cadena de texto
+nombre_modificado = nombre_personal.replace('erick','Torch')
+print(nombre_modificado)
